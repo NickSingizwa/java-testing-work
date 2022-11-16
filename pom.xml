@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>rw.ac.rca</groupId>
-	<artifactId>termOneExam</artifactId>
+	<artifactId>JavaTestingWork</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>termOneExam</name>
+	<name>JavaTestingWork</name>
 	<description>End of term one exam</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -53,7 +53,15 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<plugins>

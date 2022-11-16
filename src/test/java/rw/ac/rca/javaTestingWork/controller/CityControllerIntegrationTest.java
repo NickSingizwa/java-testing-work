@@ -1,4 +1,4 @@
-package rw.ac.rca.termOneExam.controller;
+package rw.ac.rca.javaTestingWork.controller;
 
 import org.json.JSONException;
 import org.junit.Test;
@@ -11,9 +11,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
-import rw.ac.rca.termOneExam.domain.City;
-import rw.ac.rca.termOneExam.dto.CreateCityDTO;
-import rw.ac.rca.termOneExam.utils.APICustomResponse;
+import rw.ac.rca.javaTestingWork.domain.City;
+import rw.ac.rca.javaTestingWork.dto.CreateCityDTO;
+import rw.ac.rca.javaTestingWork.utils.APICustomResponse;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,4 +1,4 @@
-package rw.ac.rca.termOneExam.service;
+package rw.ac.rca.javaTestingWork.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -6,9 +6,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.http.ResponseEntity;
-import rw.ac.rca.termOneExam.domain.City;
-import rw.ac.rca.termOneExam.dto.CreateCityDTO;
-import rw.ac.rca.termOneExam.repository.ICityRepository;
+import rw.ac.rca.javaTestingWork.domain.City;
+import rw.ac.rca.javaTestingWork.dto.CreateCityDTO;
+import rw.ac.rca.javaTestingWork.repository.ICityRepository;
 
 import java.util.Arrays;
 import java.util.Optional;

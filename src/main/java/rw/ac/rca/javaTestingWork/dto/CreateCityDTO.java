@@ -1,4 +1,4 @@
-package rw.ac.rca.termOneExam.dto;
+package rw.ac.rca.javaTestingWork.dto;
 
 public class CreateCityDTO {
 

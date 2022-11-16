@@ -1,4 +1,4 @@
-package rw.ac.rca.termOneExam.domain;
+package rw.ac.rca.javaTestingWork.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

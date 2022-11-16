@@ -1,4 +1,4 @@
-package rw.ac.rca.termOneExam.utils;
+package rw.ac.rca.javaTestingWork.utils;
 
 public class APICustomResponse {
 

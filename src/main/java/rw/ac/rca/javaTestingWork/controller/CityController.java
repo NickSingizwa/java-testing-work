@@ -1,22 +1,13 @@
-package rw.ac.rca.termOneExam.controller;
+package rw.ac.rca.javaTestingWork.controller;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import rw.ac.rca.javaTestingWork.domain.City;
-import rw.ac.rca.javaTestingWork.dto.CreateCityDTO;
-import rw.ac.rca.javaTestingWork.service.CityService;
-import rw.ac.rca.javaTestingWork.utils.APICustomResponse;
+import org.springframework.web.bind.annotation.*;
 import rw.ac.rca.javaTestingWork.domain.City;
 import rw.ac.rca.javaTestingWork.dto.CreateCityDTO;
 import rw.ac.rca.javaTestingWork.service.CityService;

@@ -1,4 +1,4 @@
-package rw.ac.rca.termOneExam.service;
+package rw.ac.rca.javaTestingWork.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,9 +6,9 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import rw.ac.rca.termOneExam.domain.City;
-import rw.ac.rca.termOneExam.dto.CreateCityDTO;
-import rw.ac.rca.termOneExam.repository.ICityRepository;
+import rw.ac.rca.javaTestingWork.domain.City;
+import rw.ac.rca.javaTestingWork.dto.CreateCityDTO;
+import rw.ac.rca.javaTestingWork.repository.ICityRepository;
 
 @Service
 public class CityService {

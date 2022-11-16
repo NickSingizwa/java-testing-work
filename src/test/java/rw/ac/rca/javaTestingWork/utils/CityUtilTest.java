@@ -1,7 +1,7 @@
-package rw.ac.rca.termOneExam.utils;
+package rw.ac.rca.javaTestingWork.utils;
 
 import org.junit.Test;
-import rw.ac.rca.termOneExam.domain.City;
+import rw.ac.rca.javaTestingWork.domain.City;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
