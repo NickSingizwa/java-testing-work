@@ -20,7 +20,7 @@ public class CityController {
 	@Autowired
 	private CityService cityService;
 
-	@GetMapping("/id/{id}")
+	@GetMapping("/{id}")
 	public ResponseEntity<?> getById(@PathVariable(name = "id") long id) {
 
 		Optional<City> city = cityService.getById(id);

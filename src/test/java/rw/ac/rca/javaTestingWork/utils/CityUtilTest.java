@@ -70,18 +70,18 @@ public class CityUtilTest {
 
     }
 
-    @Test
-    public void testSpying() {
-
-        ArrayList<City> arrayListSpy =  spy(ArrayList.class);
-        arrayListSpy.add(new City("Kigali",30));
-
-        arrayListSpy.add(new City("Musanze",40));
-
-
-        when(arrayListSpy.size()).thenReturn(5);
-        assertEquals(5, arrayListSpy.size());
-
-        verify(arrayListSpy).add(new City("Musanze",40));
-    }
+//    @Test
+//    public void testSpying() {
+//
+//        ArrayList<City> arrayListSpy =  spy(ArrayList.class);
+//        arrayListSpy.add(new City("Kigali",30));
+//
+//        arrayListSpy.add(new City("Musanze",40));
+//
+//
+//        when(arrayListSpy.size()).thenReturn(5);
+//        assertEquals(5, arrayListSpy.size());
+//
+//        verify(arrayListSpy).add(new City("Musanze",40));
+//    }
 }

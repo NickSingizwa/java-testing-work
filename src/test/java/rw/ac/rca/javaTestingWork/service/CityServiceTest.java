@@ -29,7 +29,7 @@ public class CityServiceTest {
 //    get_all success service tests
     public void getAll_withSomeElements() {
 
-        when(cityRepository.findAll()).thenReturn(Arrays.asList(new City(1,"Kanombe",10,0),
+        when(cityRepository.findAll()).thenReturn(Arrays.asList(new City( 1,"Kanombe",10,0),
                 new City(2,"Kicukiro",40,0)));
         assertEquals(10,cityService.getAll().get(0).getWeather());
         assertEquals(2, cityService.getAll().size());

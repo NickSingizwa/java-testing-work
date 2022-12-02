@@ -1,11 +1,11 @@
 package rw.ac.rca.javaTestingWork.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Transient;
+
+
+import javax.persistence.*;
 
 @Entity
+@Table(name="city")
 public class City {
 
 	@Id
@@ -20,18 +20,18 @@ public class City {
 	private double fahrenheit;
 
 	public City() {
-		super();
+		//super();
 	}
 	
 	public City(String name, double weather) {
-		super();
+		//super();
 		this.name = name;
 		this.weather = weather;
 	}
 
 
 	public City(long id, String name, double weather, double fahrenheit) {
-		super();
+		//super();
 		this.id = id;
 		this.name = name;
 		this.weather = weather;

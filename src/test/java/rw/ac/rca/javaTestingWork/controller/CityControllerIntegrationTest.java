@@ -43,7 +43,7 @@ public class CityControllerIntegrationTest {
     @Test
 //    Get one by id success
     public void getById_successEntity() throws JSONException {
-        ResponseEntity<City> response = this.restTemplate.getForEntity("/api/cities/id/104", City.class);
+        ResponseEntity<City> response = this.restTemplate.getForEntity("/api/cities/104", City.class);
         assertEquals(200, response.getStatusCodeValue());
         assertEquals(104, response.getBody().getId());
         assertEquals("Nyagatare", response.getBody().getName());
